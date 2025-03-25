@@ -27,10 +27,10 @@ export default function Home() {
           {/* <CoreFeature/> */}
           {/* <WorkFlow/> */}
           {/* <Package/> */}
-          <TeamSection/>
-          <TestimonialCard/>
-          <BlogSection/>
-          <Subscribe/>
+          {/* <TeamSection/> */}
+          {/* <TestimonialCard/> */}
+          {/* <BlogSection/> */}
+          {/* <Subscribe/> */}
         </Layout>
       </StickyProvider>
     </ThemeUIProvider>

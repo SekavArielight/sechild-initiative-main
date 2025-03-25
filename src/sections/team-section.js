@@ -180,8 +180,8 @@ export default function TeamSection() {
     <Box>
       <Container>
         <SectionHeader
-          slogan="our team"
-          title="The most qualified and talented individuals"
+          slogan="Meet Our Dedicated Team"
+          title="Passionate Leaders, Committed to Change"
         />
 
         <Grid sx={styles.grid}>
