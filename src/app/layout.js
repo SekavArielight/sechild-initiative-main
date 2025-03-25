@@ -4,8 +4,8 @@ import 'rc-drawer/assets/index.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Agency App',
-  description: 'A company that provides a specialized service to their clients.',
+  title: 'Sechild Initiative',
+  description: "At SECHILD, we are committed to creating a world where every child with special needs has access to education, healthcare, and equal opportunities. Together, we can make a difference!",
 }
 
 export default function RootLayout({ children }) {

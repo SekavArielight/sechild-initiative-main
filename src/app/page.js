@@ -23,10 +23,10 @@ export default function Home() {
           <Banner/>
           <KeyFeature />
           <ServiceSection />
-          <Feature/>
-          <CoreFeature/>
-          <WorkFlow/>
-          <Package/>
+          {/* <Feature/> */}
+          {/* <CoreFeature/> */}
+          {/* <WorkFlow/> */}
+          {/* <Package/> */}
           <TeamSection/>
           <TestimonialCard/>
           <BlogSection/>

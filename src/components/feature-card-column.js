@@ -29,7 +29,7 @@ const styles = {
     px: [4, null, 0],
   },
   img: {
-    marginLeft: '-13px'
+    marginBottom: '13px'
   },
   wrapper: {
     width: '100%',

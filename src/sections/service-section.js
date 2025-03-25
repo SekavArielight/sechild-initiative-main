@@ -10,31 +10,31 @@ import Image from 'next/image';
 import { keyframes } from '@emotion/react'
 import TextFeature from 'components/text-feature';
 
-import ServiceThumb from '../assets/service-thumb.png';
+import ServiceThumb from '../assets/serve.jpg';
 import shapePattern from '../assets/shape-pattern1.png';
 
 import Smart from '../assets/services/smart.svg';
 import Secure from '../assets/services/secure.svg';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  subTitle: 'Join Us as a Volunteer',
+  title: 'Make a Difference Today!',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Community Engagement & Advocacy',
+      title: 'Community Engagement & Advocacy',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Help raise awareness and advocate for children with special needs by organizing outreach programs, supporting fundraising efforts, and pushing for inclusive policies that create lasting change.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Direct Support & Educational Programs',
+      title: 'Direct Support & Educational Programs',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Make a hands-on impact by assisting in special education, mentoring children, and supporting healthcare initiatives to ensure every child gets the care and learning opportunities they deserve.',
     },
   ],
 };
@@ -55,7 +55,7 @@ export default function ServiceSection() {
           <Grid sx={styles.grid}>
             {data.features.map((item) => (
               <Box sx={styles.card} key={item.id}>
-                <Image src={item.imgSrc} alt={item.altText} style={styles.icon} />
+                {/* <Image src={item.imgSrc} alt={item.altText} style={styles.icon} /> */}
 
                 <Box sx={styles.wrapper}>
                   <Heading sx={styles.wrapper.title}>{item.title}</Heading>

@@ -1,43 +1,43 @@
 import { Box, Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
-import Performance from 'assets/key-feature/performance.svg';
-import Partnership from 'assets/key-feature/partnership.svg';
-import Subscription from 'assets/key-feature/subscription.svg';
-import Support from 'assets/key-feature/support.svg';
+import Performance from 'assets/key-feature/edu.png';
+import Partnership from 'assets/key-feature/health.png';
+import Subscription from 'assets/key-feature/child.png';
+import Support from 'assets/key-feature/case.png';
 
 const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Inclusive Education',
+    title: 'Inclusive Education',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Providing access to quality education for children with special needs.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Healthcare Support',
+    title: 'Healthcare Support',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Ensuring medical care and well-being for every child.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Community Engagement',
+    title: 'Community Engagement',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Building awareness and advocacy for children with special needs.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Volunteer Programs',
+    title: 'Volunteer Programs',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Encouraging people to make a difference through active participation.',
   },
 ];
 
@@ -46,8 +46,8 @@ export default function KeyFeature() {
     <Box sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Meet the feature of product"
+          slogan="Empowering Lives, Creating Opportunities"
+          title="Our Commitment to Every Child's Future"
         />
 
         <Grid sx={styles.grid}>

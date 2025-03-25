@@ -5,11 +5,11 @@ export default [
   },
   {
     path: 'feature',
-    label: 'Features',
+    label: 'Projects',
   },
   {
     path: 'pricing',
-    label: 'Pricing',
+    label: 'Resources',
   },
   {
     path: 'testimonial',
